@@ -1,0 +1,83 @@
+{
+    "apple57" : {
+        "rel": "apple-touch-icon",
+        "sizes": "57x57",
+        "href": "/img/favicon/apple-touch-icon-57x57.png"
+    },
+    "apple60" : {
+        "rel": "apple-touch-icon",
+        "sizes": "60x60",
+        "href": "/img/favicon/apple-touch-icon-60x60.png"
+    },
+    "apple72" : {
+        "rel": "apple-touch-icon",
+        "sizes": "72x72",
+        "href": "/img/favicon/apple-touch-icon-72x72.png"
+    },
+    "apple76" : {
+        "rel": "apple-touch-icon",
+        "sizes": "76x76",
+        "href": "/img/favicon/apple-touch-icon-76x76.png"
+    },
+    "apple114" : {
+        "rel": "apple-touch-icon",
+        "sizes": "114x114",
+        "href": "/img/favicon/apple-touch-icon-114x114.png"
+    },
+    "apple120" : {
+        "rel": "apple-touch-icon",
+        "sizes": "120x120",
+        "href": "/img/favicon/apple-touch-icon-120x120.png"
+    },
+    "apple144" : {
+        "rel": "apple-touch-icon",
+        "sizes": "144x144",
+        "href": "/img/favicon/apple-touch-icon-144x144.png"
+    },
+    "apple152" : {
+        "rel": "apple-touch-icon",
+        "sizes": "152x152",
+        "href": "/img/favicon/apple-touch-icon-152x152.png"
+    },
+    "apple180" : {
+        "rel": "apple-touch-icon",
+        "sizes": "180x180",
+        "href": "/img/favicon/apple-touch-icon-180x180.png"
+    },
+    "icon32" : {
+        "rel": "icon",
+        "sizes": "32x32",
+        "href": "/img/favicon/favicon-32x32.png",
+        "type": "image/png"
+    },
+    "icon32" : {
+        "rel": "icon",
+        "sizes": "32x32",
+        "href": "/img/favicon/favicon-32x32.png",
+        "type": "image/png"
+    },
+    "icon32" : {
+        "rel": "icon",
+        "sizes": "32x32",
+        "href": "/img/favicon/favicon-32x32.png",
+        "type": "image/png"
+    },
+    "icon192" : {
+        "rel": "icon",
+        "sizes": "192x192",
+        "href": "/img/favicon/android-chrome-192x192.png",
+        "type": "image/png"
+    },
+    "icon96" : {
+        "rel": "icon",
+        "sizes": "96x96",
+        "href": "/img/favicon/favicon-96x96.png",
+        "type": "image/png"
+    },
+    "icon16" : {
+        "rel": "icon",
+        "sizes": "16x16",
+        "href": "/img/favicon/favicon-16x16.png",
+        "type": "image/png"
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "project-base",
+  "homepage": "https://github.com/chriso2014/project-base",
+  "authors": [
+    "Chris Ormerod <chrisormerod1981@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~2.6.2",
+    "sizzle": "^2.3.0",
+    "owl.carousel": "^2.1.6"
+  }
+}

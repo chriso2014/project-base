@@ -1,0 +1,14 @@
+head
+  meta(charset='utf-8')/
+  meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')/
+  title #{title}
+  meta(name='description', content=description)/
+  meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1')/
+
+  each item, index in favicon
+    link(rel=item.rel, sizes=item.sizes, href=item.href, type=item.type)/
+
+  link(href='https://fonts.googleapis.com/css?family=Josefin+Slab:400,600', rel='stylesheet')/
+  link(href='https://fonts.googleapis.com/css?family=Bangers', rel='stylesheet')/
+  link(href='/css/style.css', rel='stylesheet')/
+  link(href='/favicon.ico', rel='icon')/

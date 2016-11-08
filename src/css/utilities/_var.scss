@@ -1,0 +1,45 @@
+//* Base *
+$base-font-size:   14px;
+$base-line-height: 22px;
+$base-gutter:      20px;
+
+//* Padding & margins *
+$base-spacing:    20px;
+$base-spacing-sm: 10px;
+$base-spacing-lg: 40px;
+
+//* Base font-family. *
+$base-font-family: 'Josefin Slab', serif;
+$base-font-weight: 400;
+$bold-font-weight: 600;
+$brand-face:    'Bangers', cursive;
+$base-font-color:   #333;
+
+
+//* Base breakpoints. *
+$palm-end:     480px;
+$tablet-start: $palm-end + 1px;
+$tablet-end:   768px;
+$desk-start:   $tablet-end + 1px;
+$desk-end:     1024px;
+$desk-wide:    $desk-end + 1px;
+$max-width:    em(1440) !global;
+$max-width-sm: em(700);
+
+//* Text sizing. *
+$size-alpha: 62px;
+$size-beta: 42px;
+$size-gamma: 34px;
+$size-delta: 26px;
+$size-epsilon: 20px;
+
+$breakpoint: (
+  palm-only:         'only screen and (max-width: #{$palm-end})',
+  tablet:            'only screen and (min-width: #{$tablet-start}) and (max-width: #{$tablet-end})',
+  tablet-and-up:     'only screen and (min-width: #{$tablet-start})',
+  tablet-only:       'only screen and (max-width: #{$tablet-end})',
+  desk-and-up:       'only screen and (min-width: #{$desk-start})',
+  desk-to-desk-wide: 'only screen and (min-width: #{$desk-start}) and (max-width: #{$desk-end})',
+  desk-wide:         'only screen and (min-width: #{$desk-wide})',
+  retina:            '(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx)'
+);

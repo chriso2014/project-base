@@ -1,0 +1,26 @@
+@mixin media-query ($media-query) {
+  @if $media-query != '' {
+    @media #{map-get($breakpoint, $media-query)} {
+      @content;
+    }
+  }
+}
+
+@function calculate-rem($size) {
+  $rem-size: $size / 16px;
+  @return #{$rem-size}rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size; //Fallback in px
+  font-size: calculate-rem($size);
+}
+
+@mixin rgba-background($hexcolor, $opacity: 1) {
+  @if $opacity == 1 {
+    background-color: $hexcolor;
+  } @else {
+    background-color: $hexcolor;
+    background-color: rgba($hexcolor, $opacity);
+  }
+}

@@ -1,0 +1,11 @@
+doctype html
+
+html(lang='en')
+
+  include ./partials/head.pug
+
+  body
+    main(role='main', id='maincontent')
+      block content
+    include ./partials/footer.pug
+    include ./partials/jsDependencies.pug

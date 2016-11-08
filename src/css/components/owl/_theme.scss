@@ -1,0 +1,41 @@
+.hero-panel {
+  margin-bottom: $base-spacing-lg;
+}
+
+.owl-dots {
+  @include rgba-background(map-get($colors, "dark"));
+  bottom: 0;
+  display: block;
+  height: 36px;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+
+  @include media-query(tablet-and-up) {
+    @include rgba-background(map-get($colors, "dark"), .3);
+    position: absolute;
+    left: $base-spacing;
+    right: $base-spacing;
+  }
+
+  .owl-dot {
+    display: inline-block;
+    padding: $base-spacing-sm 5px;
+    zoom: 1;
+
+    span {
+      @include rgba-background(map-get($colors, "light"), .5);
+      border: 1px solid map-get($colors, "blue");
+      height: 16px;
+      width: 16px;
+      display: block;
+      border-radius: 50%;
+    }
+
+    &.active {
+      span {
+        @include rgba-background(map-get($colors, "light"));
+      }
+    }
+  }
+}

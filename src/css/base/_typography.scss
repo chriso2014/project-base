@@ -1,0 +1,65 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $base-font-color;
+  font-family: $base-font-family;
+}
+
+.text--left {
+  text-align: left;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--right {
+  text-align: right;
+}
+
+.alpha {
+  @include font-size($size-alpha);
+  font-family: $brand-face;
+  line-height: 1em;
+  margin: $base-spacing-lg 0;
+}
+
+.beta {
+  @include font-size($size-beta);
+  font-family: $brand-face;
+  line-height: 1em;
+}
+
+.gamma {
+  @include font-size($size-gamma);
+  font-weight: $bold-font-weight;
+  line-height: 1em;
+}
+
+.delta {
+  @include font-size($size-delta);
+  font-weight: $bold-font-weight;
+  line-height: 1em;
+}
+
+.quotation {
+  display: block;
+  max-width: $max-width-sm;
+  margin-left: auto;
+  margin-right: auto;
+  padding: $base-spacing 0 $base-spacing-lg;
+  text-align: center;
+
+  p {
+    @include font-size($size-beta);
+    font-family: $brand-face;
+    margin-bottom: $base-spacing-sm;
+    line-height: 1em;
+  }
+
+  .quotation__author {
+    @include font-size($size-delta);
+    font-weight: $bold-font-weight;
+    line-height: 1em;
+  }
+}

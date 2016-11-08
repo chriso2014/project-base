@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+  font-size: $base-font-size;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  line-height: $base-line-height;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}

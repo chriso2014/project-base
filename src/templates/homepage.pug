@@ -1,0 +1,30 @@
+extends ./index.pug
+
+block content
+  header.block-item.text--center
+    h1.alpha My project base homepage
+
+  article.block-item
+    include partials/hero.pug
+
+  article.block-item
+    .container.grid
+
+      figure.grid__item
+        img(src='/img/pic/pho-monkey-1.jpg', srcset='/img/pic/pho-monkey-1.jpg 1x, /img/pic/pho-monkey-1-2x.jpg 2x', alt='Monkey say heyyyyy')/
+        figcaption.delta Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rhoncus id libero eu ultricies. In ornare lorem ac nisi vulputate, dapibus egestas orci lacinia.
+
+      figure.grid__item
+        img(src='/img/pic/pho-monkey-2.jpg', srcset='/img/pic/pho-monkey-2.jpg 1x, /img/pic/pho-monkey-2-2x.jpg 2x', alt='Monkey say heyyyyy')/
+        figcaption.delta In ornare lorem ac nisi vulputate. Cras rhoncus id libero eu ultricies. In ornare lorem ac nisi vulputate, dapibus egestas orci lacinia.
+
+      figure.grid__item
+        img(src='/img/pic/pho-monkey-3.jpg', srcset='/img/pic/pho-monkey-3.jpg 1x, /img/pic/pho-monkey-3-2x.jpg 2x', alt='Monkey say heyyyyy')/
+        figcaption.delta Cras rhoncus id libero eu ultricies. In ornare lorem ac nisi vulputate, dapibus egestas orci lacinia.
+
+  article.block-item
+    .container
+      blockquote.quotation.text--center
+        p Donec vel pellentesque ante. Etiam gravida, nibh eu ultricies varius, justo purus malesuada lectus, et consequat leo dui id massa. Mauris elementum pharetra dignissim
+
+        footer.quotation__author - Cras nec tortor aliquet
